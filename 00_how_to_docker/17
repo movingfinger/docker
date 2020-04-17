@@ -1,0 +1,2 @@
+// https://www.shellhacks.com/docker-list-running-containers/
+docker ps

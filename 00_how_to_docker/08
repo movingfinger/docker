@@ -1,0 +1,4 @@
+// https://www.powercms.in/blog/how-automatically-delete-docker-container-after-running-it
+// http://containertutorials.com/alpine/get_started.html
+// https://hub.docker.com/_/alpine/
+docker run -it --rm alpine /bin/sh

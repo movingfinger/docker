@@ -1,0 +1,2 @@
+// https://medium.com/@migueldoctor/run-mysql-phpmyadmin-locally-in-3-steps-using-docker-74eb735fa1fc
+docker run -d -p 8081:80 --name roach-warden --link spawning-pool:mysql phpmyadmin/phpmyadmin

@@ -1,0 +1,2 @@
+// https://www.thegeekdiary.com/how-to-get-information-about-a-container-in-docker/
+docker inspect -f '{{.Config.Env}}' spawning-pool

@@ -1,0 +1,6 @@
+1. Type docker-machine ssh Char to enter the Char ssh.
+2. Type docker swarm join-token manager to see the comment to add to manager
+3. Copy the command from Char, then copy-paste to Aiur ssh.
+4. Type docker-machine ssh Aiur to enter the Aiur ssh
+5. copy-paste the command from Char.
+6. If this node joined a swarm as a manger. is displayed, we're done.

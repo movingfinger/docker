@@ -1,0 +1,9 @@
+// https://stackoverflow.com/questions/48368411/what-is-docker-run-it-flag
+
+FROM alpine
+
+MAINTAINER sako <sako@student.42.us.org>
+
+RUN apk update && apk add vim emacs
+
+ENTRYPOINT vim

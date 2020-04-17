@@ -1,0 +1,15 @@
+// https://linuxize.com/post/how-to-install-gcc-compiler-on-debian-10/
+
+#set-up debian
+
+docker run -it --rm debian
+
+#inside of debian
+
+apt update
+
+apt install -y build-essential
+
+apt install -y git
+
+apt install -y vim
